@@ -8,10 +8,28 @@
 
 .container{
     height: calc(100vh - 100px);
-    background-color: red;
+    
 }
+
+.col-2{
+    width: calc(100% / 12 * 2);
+    height: 100%;
+    background-color: blue;
+}
+
+.col-10{
+    width: calc(100% / 12 * 10);
+    height: 100%;
+    background-color: antiquewhite;
+
+}
+
 
 .player{
     height: 100px;
     background-color: grey;
+}
+
+.d_flex{
+    display: flex;
 }
