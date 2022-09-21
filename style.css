@@ -6,6 +6,7 @@
 
 /* utilities */
 
+
 .container{
     height: calc(100vh - 100px);
     
@@ -23,10 +24,14 @@
     border: 1px solid ;
 }
 
+
+
+
 .col-10{
     width: calc(100% / 12 * 10);
-    height: 100%;
+    height: 150vh;
     background-color: antiquewhite;
+   
 
 }
 
