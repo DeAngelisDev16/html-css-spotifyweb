@@ -20,16 +20,16 @@
 .col-2{
     width: calc(100% / 12 * 2);
     
+}
     
    
-}
 
 
 
 
 .col-10{
     width: calc(100% / 12 * 10);
-    height: 130vh;
+    height: 200vh;
     background-color: lightslategrey
    
 
@@ -76,7 +76,7 @@
 
 /* upgrade-container-region */
 .upgrade_container{
-    height: 10%;
+    height: 5%;
     display: flex;
     justify-content: flex-end;
     background-color: black;
@@ -114,10 +114,16 @@
 /* recently_played-region */
 
 .recently_played{
-    height: 150px;
-    margin-top: 3rem;
-
+    margin-top: 2rem;
 }
+   
+
+.recently_played h2{
+    margin-left: 1rem;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
     
 
 
@@ -126,19 +132,42 @@
 /* daily_mix-region */
 
 .daily_mix{
-    height: 150px;
-    margin-top: 4rem;
-    
+    margin-top: 2rem;
 }
+   
+    
+
+.daily_mix h2{
+    margin-left: 1rem;
+    color: white;
+}
+
+.daily_mix p{
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1.5rem;
+}
+    
     
 /* daiyly-mix-endregion */
 
 /* popular-artists-region */
 .popular_artists{
-    height: 150px;
     margin-top: 4rem;
-    
 }
+
+.popular_artists h2{
+    margin-left: 1rem;
+    color: white;
+}
+
+.popular_artists p{
+    margin-left: 1rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1.5rem;
+}
+   
+    
    
 
 /* popular-artists-endregion */
@@ -146,5 +175,5 @@
 /* sidebar-region */
 .sidebar{
     background-color: black;
-    height: 100%;
+    height: calc(100vh - 100px);
 }
