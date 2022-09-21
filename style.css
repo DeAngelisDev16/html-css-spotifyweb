@@ -34,6 +34,11 @@
 .player{
     height: 100px;
     background-color: grey;
+    position: fixed;
+    border-bottom-color: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
 }
 
 .d_flex{
@@ -87,4 +92,24 @@
     background-color: azure;
     margin-top: 3rem;
 
+}
+
+
+/* recently_played-endregion */
+
+/* daily_mix-region */
+
+.daily_mix{
+    height: 150px;
+    background-color: azure;
+    margin-top: 3rem;
+    
+}
+
+
+.popular_artists{
+    height: 150px;
+    background-color: azure;
+    margin-top: 3rem;
+    
 }
