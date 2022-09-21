@@ -11,10 +11,16 @@
     
 }
 
+.row{
+    height: 100%;
+    
+}
+
 .col-2{
     width: calc(100% / 12 * 2);
     height: 100%;
     background-color: blue;
+    border: 1px solid ;
 }
 
 .col-10{
@@ -33,6 +39,8 @@
 .d_flex{
     display: flex;
 }
+
+
 /* /end-utilities */
 
 /* upgrade-container-region */
@@ -70,4 +78,13 @@
     text-decoration: none;
     padding-top: 1rem;
     font-size: 12px;
+}
+
+/* recently_played-region */
+
+.recently_played{
+    height: 150px;
+    background-color: azure;
+    margin-top: 3rem;
+
 }
