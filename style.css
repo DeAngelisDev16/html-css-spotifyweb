@@ -8,7 +8,7 @@
 
 
 .container{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
     
 }
 
@@ -24,16 +24,13 @@
     
    
 
-
-
-
 .col-10{
     width: calc(100% / 12 * 10);
     height: 200vh;
     background-color: lightslategrey
+}
    
 
-}
 
 
 .player{
@@ -49,6 +46,9 @@
 .d_flex{
     display: flex;
 }
+
+
+
 
 /* card-utilities */
 .card{
@@ -175,5 +175,12 @@
 /* sidebar-region */
 .sidebar{
     background-color: black;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 80px);
+}
+
+/* player-region */
+
+.player{
+    height: 80px;
+    background-color: red;
 }
