@@ -35,7 +35,7 @@
 }
 /* /end-utilities */
 
-/* upgrade container */
+/* upgrade-container-region */
 .upgrade_container{
     height: 10%;
     display: flex;
@@ -51,4 +51,23 @@
     border: 1px solid white;
     font-size: 12px;
     border-radius: 1rem 1rem;
+}
+
+/* upgrade-container-endregion */
+
+/* navbar-region */
+.navbar{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    padding-top: 1rem;
+    font-size: 12px;
 }
