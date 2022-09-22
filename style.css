@@ -206,7 +206,7 @@ body{
 
 /* sidebar-region */
 .sidebar{
-    background-color: rgba(0, 0, 0, 0.201);
+    background-color: black;
     height: 100%;
 }
 
@@ -218,8 +218,10 @@ body{
 
 .menu_sidebar a{
     padding-bottom: 0.3rem;
+    padding-left: 0.3rem;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 12px;
+    color: #7C7E83;
 }
     
 .icon{
@@ -231,9 +233,25 @@ body{
     
 }
 
-.playlist h4{
-    margin-top: 0.5rem;
+.playlist h5{
+    margin-top: 0.4rem;
+    color: white;
 
+}
+
+.fa-square-plus{
+    color:#7C7E83;
+    padding: 0.3rem 0.3rem;
+    font-size: 35px;
+}
+
+.playlist li{
+    color:#7C7E83;
+}
+
+.nome_playlist{
+    font-size: 12px;
+    padding: 0.3rem;
 }
 
 
