@@ -4,10 +4,19 @@
     box-sizing: border-box;
 }
 
+ /* colors:
+ upgrade_container: 080B12;
+ sidebar: black;
+ main: 141922;
+ player: 282828;
+ font-navbar/sidebar : 7C7E83; */
+
+
 /* utilities */
 
 body{
     height: 100vh;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -82,7 +91,7 @@ body{
     height: 10%;
     display: flex;
     justify-content: flex-end;
-    background-color: black;
+    background-color: #080b12b7;
     align-items: center;
 }
     
@@ -99,6 +108,17 @@ body{
 
 /* upgrade-container-endregion */
 
+/* main-region */
+.main{
+    background-color: #141922 ;
+}
+
+
+
+
+
+
+
 /* navbar-region */
 .navbar{
     width: 50%;
@@ -114,6 +134,7 @@ body{
     text-decoration: none;
     padding-top: 1rem;
     font-size: 12px;
+    color: #7C7E83;
 }
 
 /* recently_played-region */
@@ -127,6 +148,10 @@ body{
     margin-left: 1rem;
     margin-bottom: 1.5rem;
     color: white;
+}
+
+.recently_played div{
+    color: #7C7E83;
 }
 
     
@@ -151,6 +176,7 @@ body{
     margin-left: 1rem;
     margin-top: 0.3rem;
     margin-bottom: 1.5rem;
+    color: #7C7E83;
 }
     
     
@@ -170,6 +196,7 @@ body{
     margin-left: 1rem;
     margin-top: 0.3rem;
     margin-bottom: 1.5rem;
+    color: #7C7E83;
 }
    
     
@@ -189,19 +216,32 @@ body{
 
 }
 
-.menu_sidebar li{
-    padding-bottom: 0.5rem;
-    
-
+.menu_sidebar a{
+    padding-bottom: 0.3rem;
+    text-decoration: none;
+    font-size: 13px;
 }
-
+    
 .icon{
     width: 10%;
 }
+
+.playlist{
+    padding: 0.5rem;
+    
+}
+
+.playlist h4{
+    margin-top: 0.5rem;
+
+}
+
+
+
     
 /* player-region */
 
 .player{
-    background-color: brown;
+    background-color: #282828;
     height: 80px;
 }
