@@ -6,15 +6,17 @@
 
 /* utilities */
 
+body{
+    height: 100vh;
+}
+
+
+
 
 .container{
     height: calc(100vh - 80px);
     
 }
-
-
-   
-    
 
 
 .col-2{
@@ -26,22 +28,18 @@
 
 .col-10{
     width: calc(100% / 12 * 10);
-    height: 200vh;
-    background-color: lightslategrey
+    height: 100%;
+    background-color: lightslategray;
+    overflow-y: scroll;
+    
+    
+    
 }
    
 
 
 
-.player{
-    height: 100px;
-    background-color: grey;
-    position: fixed;
-    border-bottom-color: 0;
-    right: 0;
-    left: 0;
-    z-index: 10;
-}
+
 
 .d_flex{
     display: flex;
@@ -76,12 +74,14 @@
 
 /* upgrade-container-region */
 .upgrade_container{
-    height: 5%;
+    height: 10%;
     display: flex;
     justify-content: flex-end;
     background-color: black;
     align-items: center;
 }
+    
+    
 
 .upgrade_container a{
     color: white;
@@ -175,12 +175,12 @@
 /* sidebar-region */
 .sidebar{
     background-color: black;
-    height: calc(100vh - 80px);
+    height: 100%;
+    
 }
-
 /* player-region */
 
 .player{
+    background-color: brown;
     height: 80px;
-    background-color: red;
 }
