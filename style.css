@@ -137,6 +137,8 @@ body{
     color: #7C7E83;
 }
 
+
+
 /* recently_played-region */
 
 .recently_played{
@@ -208,6 +210,11 @@ body{
 .sidebar{
     background-color: black;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
 }
 
 .menu_sidebar ul{
@@ -254,6 +261,42 @@ body{
     padding: 0.3rem;
 }
 
+.user{
+    color: white;
+}
+
+#download{
+    width: 10%;
+    
+}
+
+#user{
+    width: 10%;
+    background-color: #7C7E83;
+    border-radius: 50%;
+
+}
+
+.user span{
+    font-size: 12px;
+    
+}
+
+.sidebar_bottom hr{
+    width: 80%;
+    margin: auto;
+}
+
+.user_bottom, .user_top{
+    margin: 0.5rem;
+}
+
+.user_bottom h4{
+    display: inline-block;
+    margin-left: 0.5rem;
+}
+   
+   
 
 
     
